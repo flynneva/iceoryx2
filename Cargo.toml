@@ -18,6 +18,8 @@ members = [
     "iceoryx2-pal/posix/",
     "iceoryx2-pal/configuration/",
 
+    "iceoryx2-eye",
+
     "examples",
 
     "benchmarks/publish-subscribe"
@@ -53,6 +55,8 @@ iceoryx2-pal-configuration = { version = "0.1.1", path = "iceoryx2-pal/configura
 iceoryx2-cal = { version = "0.1.1", path = "iceoryx2-cal" }
 
 iceoryx2 = { version = "0.1.1", path = "iceoryx2/" }
+
+iceoryx2-eye = { version = "0.0.1", path = "iceoryx2-eye" }
 
 bindgen = { version = "0.65.1" }
 bitflags = { version = "1.3.2" }
